@@ -1,0 +1,34 @@
+
+
+plugins {
+  
+    id 'application'
+    
+}
+
+repositories {
+   jcenter()
+}
+
+dependencies {
+     testImplementation 'junit:junit:4.13.2'
+
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.29'
+
+
+
+}
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.TodoApp.Application'
+    }
+}
+application {
+       mainClass.set('com.TodoApp.Application')
+}
+
+
+tasks.named('test') {
+    
+}

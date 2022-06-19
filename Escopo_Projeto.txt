@@ -1,0 +1,77 @@
+Documentação  Projeto - Curso de lógica de programação III 
+
+
+1- Definição do Projeto desenvolvido no Curso de  Lógica de Programação III
+
+Nome do Projeto: Todo App
+
+
+Descrição: Aplicação para gerenciamento de projetos e suas tarefas envolvidas nesses projetos. 
+
+Objetivo: Resolver a questão de organização de tarefas de um ou vários projetos.
+
+
+Entidades:
+
+*Projeto:
+	-Nome
+	-Descrição
+	-Data de Criação
+	-Data de Atualização
+	
+*Tarefa;
+	-Nome
+	-Descrição
+	-Status
+	-Tags
+	-Observações
+	-Prazo
+	-Data de Criação
+	-Data de Atualização
+	
+	
+
+
+Requisitos do Projetos:
+
+	1.Permitir criar o Projeto;
+	1.1Permitir alterar o Projeto;
+	1.2Permitir deletar o Projeto;
+		
+	2.Permitir criar a Tarefa;
+	2.1Permitir alterar a Tarefa;
+	2.2Permitir deletar a Tarefa;
+	
+
+Regras de negócio:
+
+	1.Não  irá conter um sistema de login.
+	2.Não haverá o conceito de usuário.
+	3.Toda tarefa deve pertencer a um projeto.
+
+
+Tecnologias utilizadas:
+
+	1.Java
+	2.MySql
+
+
+Etapas projeto:
+	Criação do banco de dados(ok)
+	Criação das Classes de modelo(ok)
+	Criação da conexao com o banco de dados(ok)
+	Criação das classes de controle(Acesso aos dados do banco)
+	Criação da interface gráfica
+		Criação da tela principal 
+			Criação do cellRederer Prazo
+			Criação do cellRederer Editar e Deletar
+		Criação da tela de Cadastro de Projeto
+		Criação da tela de Cadastro de Tarefa
+	Implementação dos eventos
+		Validações
+	Ajustes finais
+	Teste de aplicação
+		
+		
+		
+	
